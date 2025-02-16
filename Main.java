@@ -9,7 +9,8 @@ class Main {
             new ThreadInNewState(),
             new ThreadInRunnableState(),
             new ThreadInBlockedState(),
-            new ThreadInTerminatedState()
+            new ThreadInTerminatedState(),
+            new ThreadInWaitingState()
         );
 
         states
